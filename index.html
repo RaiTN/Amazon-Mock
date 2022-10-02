@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4cf0f0fbea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon Sign-In</title>
+</head>
+<body>
+    <main>
+        <header class="head">
+            <div class="placeholder">
+                <img class="placeholder-img" src="https://placehold.jp/103x31.png" alt="">
+            </div>
+        </header>
+
+        <nav class="container">
+            <div class="box">
+                <form action="" class="sign-in">
+                    <div class="inner-box">
+                        <h1>Sign In</h1>
+                
+                        <!-- Username Prompt-->
+                        <div class="user">
+                            <label class="email" for="email">Email (phone or mobile accounts)</label>
+                            <br>
+                            <input class="email" type="email" maxlength="128" placeholder=" Enter Email">
+                        </div>
+                    
+                        <!-- Password Prompt-->
+                        <div class="pass">
+                            <label class="password text" for="password">Password</label>
+                            <a class="forgot" href="https://www.amazon.com/ap/forgotpassword?openid.pape.max_auth_age=900&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Forgot Password</a>
+                            <br>
+                            <input class="password" type="password" maxlength="128" placeholder=" Enter Password">
+                        </div>
+
+                        <!-- Continue Button-->
+                        <div class="continue">
+                            <div>
+                                <input class="button" type="submit" value="Continue">
+                            </div>
+                        </div>
+
+                        <!-- Help -->
+                        <div class="help">
+                            <i class="fa-sharp fa-solid fa-caret-right"></i>
+                            <a class="help-link" href=""> Need Help?</a>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Strike Text -->
+                <div class="new">
+                    <div class="strike">
+                        <span class="strike-text">
+                            New to Amazon?
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Create Account -->
+                <div class="create">
+                    <div class="create-button">
+                        <input type="submit" value="Create Your Amazon Account">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <hr>
+
+        <footer>
+            <div class="footer">
+                <div class="footer-link">
+                    <a class="condition" href="">Conditions of use</a>
+                    &emsp;
+                    <a class="privacy" href="">Privacy Policy</a>
+                    &emsp;
+                    <a class="help-link" href="">Help</a>
+                </div>
+
+                <div class="tm">
+                    &copy; 1996-2020, Amazon.com,inc or it's affiliates
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
